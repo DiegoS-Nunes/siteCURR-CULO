@@ -5,10 +5,18 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo 'Building the project...' && mkdir -p build && cp -r src/* build/"
+    "test": "vitest",
+    "build": "echo 'Building the project...' && mkdir -p build && cp -r src/* build/",
+    "start": "nodemon src/server.js"
   },
   "keywords": [],
   "author": "Diego Nunes",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.3",
+    "vitest": "^1.6.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
