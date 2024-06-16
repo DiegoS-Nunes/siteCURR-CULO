@@ -1,2 +1,2 @@
-# siteCURR-CULO
-Site onde está hospedados minhas informações profissionais.
+# siteCURRÍCULO
+Site onde está hospedado minhas informações profissionais.
