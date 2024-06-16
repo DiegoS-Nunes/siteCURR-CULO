@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "comando-para-construir-seu-projeto"
+    "build": "echo 'Building the project...' && mkdir -p build && cp -r src/* build/"
   },
   "keywords": [],
   "author": "Diego Nunes",
